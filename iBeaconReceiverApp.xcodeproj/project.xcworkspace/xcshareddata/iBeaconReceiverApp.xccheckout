@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>91659F6A-3FBC-431D-AD88-927950BBC6E1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iBeaconReceiverApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3CECD386-AD60-46C1-8E15-EAFB70FB5CBA</key>
+		<string>ssh://github.com/atsu666/iOS-BeaconReceiverApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iBeaconReceiverApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3CECD386-AD60-46C1-8E15-EAFB70FB5CBA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/atsu666/iOS-BeaconReceiverApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3CECD386-AD60-46C1-8E15-EAFB70FB5CBA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3CECD386-AD60-46C1-8E15-EAFB70FB5CBA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iBeaconReceiverApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
