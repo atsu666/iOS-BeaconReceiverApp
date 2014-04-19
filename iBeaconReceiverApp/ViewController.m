@@ -27,6 +27,7 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -53,7 +54,6 @@
         self.region.notifyOnExit                = YES;
         self.region.notifyEntryStateOnDisplay   = NO;
         
-        [self.manager startMonitoringForRegion:self.region];
         [self.manager startRangingBeaconsInRegion:self.region];
     }
 }
@@ -65,6 +65,11 @@
 }
 
 #pragma mark CLLocationManagerDelegate
+
+- (void)locationManager:(CLLocationManager *)manager didStartMonitoringForRegion:(CLRegion *)region
+{
+    [self.manager requestStateForRegion:self.region];
+}
 
 - (void)locationManager:(CLLocationManager *)manager
          didEnterRegion:(CLRegion *)region
@@ -132,7 +137,6 @@
     
     if ( proximity == CLProximityImmediate && rssi > -40 ) {
         self.beconStateLabel.text   = @"TOUCH";
-//        [self sendNotification:@"チェックアウトしました。"];
     }
 }
 
